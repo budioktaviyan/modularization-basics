@@ -1,0 +1,4 @@
+<resources>
+  <string name="module_name">Native</string>
+  <string name="text_welcome">Hi, Native!</string>
+</resources>

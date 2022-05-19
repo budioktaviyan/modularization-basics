@@ -1,3 +1,4 @@
 <resources>
   <string name="app_name">Modules</string>
+  <string name="btn_start">Start Native</string>
 </resources>

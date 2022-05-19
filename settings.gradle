@@ -16,3 +16,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "modularization-basics"
 include ':app'
+include ':module-x'

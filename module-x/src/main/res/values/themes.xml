@@ -1,0 +1,11 @@
+<resources>
+  <!-- Base module-x theme -->
+  <style name="Theme.Module.X" parent="Theme.MaterialComponents.Light">
+    <item name="colorPrimary">@color/white</item>
+    <item name="colorPrimaryDark">@android:color/transparent</item>
+    <item name="colorAccent">@color/black</item>
+    <item name="android:navigationBarColor">@color/white</item>
+    <item name="android:windowLightStatusBar">true</item>
+    <item name="android:windowLightNavigationBar">true</item>
+  </style>
+</resources>
