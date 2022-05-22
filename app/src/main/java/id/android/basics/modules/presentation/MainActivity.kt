@@ -5,6 +5,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import id.android.basics.module.x.presentation.NativeActivity
 import id.android.basics.modules.databinding.ActivityMainBinding
+import io.flutter.embedding.android.FlutterActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -27,6 +28,8 @@ class MainActivity : AppCompatActivity() {
   }
 
   private fun startFlutter() {
-    TODO("Not yet implemented!")
+    val intent = FlutterActivity.createDefaultIntent(this)
+
+    startActivity(intent)
   }
 }
