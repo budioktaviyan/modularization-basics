@@ -1,7 +1,7 @@
 <!--
-   Sample data extraction rules file; uncomment and customize as necessary.
-   See https://developer.android.com/about/versions/12/backup-restore#xml-changes
-   for details.
+  Sample data extraction rules file; uncomment and customize as necessary.
+  See https://developer.android.com/about/versions/12/backup-restore#xml-changes
+  for details.
 -->
 <data-extraction-rules>
   <cloud-backup>

@@ -1,0 +1,23 @@
+name: module_y
+description: Sample Basics Modularization with Flutter
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.4 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  module:
+    androidX: true
+    androidPackage: id.android.basics.module.y
+    iosBundleIdentifier: id.android.basics.module.y

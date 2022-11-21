@@ -6,14 +6,11 @@ pluginManagement {
     }
 }
 
-dependencyResolutionManagement {
-    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
-    repositories {
-        google()
-        mavenCentral()
-    }
-}
+setBinding(new Binding([gradle: this]))
+evaluate(new File(settingsDir.parentFile,
+        './modularization-basics/module_y/.android/include_flutter.groovy'))
 
 rootProject.name = "modularization-basics"
 include ':app'
 include ':module-x'
+include ':module_y'

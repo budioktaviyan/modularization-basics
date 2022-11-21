@@ -1,4 +1,5 @@
 <resources>
   <string name="app_name">Modules</string>
-  <string name="btn_start">Start Native</string>
+  <string name="btn_start_native">Start Native</string>
+  <string name="btn_start_flutter">Start Flutter</string>
 </resources>
